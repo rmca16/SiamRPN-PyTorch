@@ -28,7 +28,7 @@ Dataset tree:
                            /img2.jpg
                            /...
                            /imgN.jpg
-                           /groud_truth.txt
+                           /groundtruth.txt
 
 To train:
 
