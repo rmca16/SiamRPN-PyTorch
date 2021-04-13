@@ -45,7 +45,7 @@ def SiamRPN_Tracker(cnfg):
 	device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 	
 	SiamRPN_model = SiameseRPN()
-	SiamRPN_model.load_state_dict(torch.load(os.path.join(cnfg.weight_dir,'siam_rpn_gym_model_b8_v2.ckpt')))
+	SiamRPN_model.load_state_dict(torch.load(os.path.join(cnfg.weight_dir,'SiamRPN_model.ckpt')))
 	SiamRPN_model.to(device)
 	SiamRPN_model.eval()
 
