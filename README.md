@@ -3,7 +3,7 @@ Re-implementation of the SiamRPN for object tracking applications using the PyTo
 
 Developed code was based on the following previous implementations: [SiamRPN-Pytorch](https://github.com/arbitularov/SiamRPN-PyTorch) and [SiamRPN-Pytorch](https://github.com/songdejia/Siamese-RPN-pytorch)
 
-<p align="center"><img src="assets/SiamRPN.png" width="480"\></p>
+<p align="center"><img src="assets/SiamRPN.png" width="1080"\></p>
 
 ## Performing
 To test the developed code, the VOT-2013 Gymnastics sub-dataset was used:
