@@ -1,3 +1,4 @@
+
 # SiamRPN-PyTorch
 Re-implementation of the SiamRPN for object tracking applications using the PyTorch framework.
 
@@ -8,6 +9,7 @@ Developed code was based on the following previous implementations: [SiamRPN-Pyt
 ## Performing
 To test the developed code, the VOT-2013 Gymnastics sub-dataset was used:
 
+![](assets/tracking.gif)
 
 ### Requirements
 
